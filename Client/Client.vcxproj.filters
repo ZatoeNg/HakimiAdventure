@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Animation">
+      <UniqueIdentifier>{d025c3fe-8a15-432b-b659-3195b178602a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Camera">
+      <UniqueIdentifier>{517b8b5e-2837-4f23-b34f-2c913a55d8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Kits">
+      <UniqueIdentifier>{b224c024-8e75-48a6-bb77-1dc280223f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Player">
+      <UniqueIdentifier>{d5b72655-4558-4bf6-9e9e-1f61011b9569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置文件">
+      <UniqueIdentifier>{3894c735-212e-468a-ad2b-96fb964de4fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\1p_win.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\1p_win.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\2p_win.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\2p_win.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\bgm.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\click_1.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\click_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\click_2.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\click_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\click_3.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\click_3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\click_4.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\click_4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\ui_1.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\ui_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\ui_2.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\ui_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\ui_3.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\ui_3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\ui_fight.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="resources\ui_fight.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\background.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_back_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_back_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_back_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_back_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_front_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_front_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_front_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_front_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_left_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_left_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_left_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_left_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_right_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_right_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_right_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_idle_right_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_back_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_back_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_back_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_back_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_front_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_front_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_front_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_front_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_left_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_left_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_left_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_left_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_right_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_right_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_right_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\hajimi_run_right_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_back_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_back_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_back_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_back_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_front_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_front_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_front_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_front_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_left_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_left_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_left_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_left_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_right_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_right_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_right_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_idle_right_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_back_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_back_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_back_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_back_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_front_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_front_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_front_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_front_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_left_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_left_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_left_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_left_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_right_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_right_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_right_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\manbo_run_right_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\ui_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\ui_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\ui_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\ui_fight.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\ui_textbox.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\IPix.ttf">
+      <Filter>资源文件</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Atlas.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Kits\Timer.h">
+      <Filter>头文件\Kits</Filter>
+    </ClInclude>
+    <ClInclude Include="Kits\Util.h">
+      <Filter>头文件\Kits</Filter>
+    </ClInclude>
+    <ClInclude Include="Kits\Vector2.h">
+      <Filter>头文件\Kits</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Path.h">
+      <Filter>头文件\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Player.h">
+      <Filter>头文件\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.cfg">
+      <Filter>配置文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

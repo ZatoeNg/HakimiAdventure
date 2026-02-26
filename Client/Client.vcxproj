@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d89ec38c-c1c7-4f7b-94df-fecb2fd6b3d3}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\1p_win.mp3" />
+    <Media Include="resources\1p_win.wav" />
+    <Media Include="resources\2p_win.mp3" />
+    <Media Include="resources\2p_win.wav" />
+    <Media Include="resources\bgm.mp3" />
+    <Media Include="resources\click_1.mp3" />
+    <Media Include="resources\click_1.wav" />
+    <Media Include="resources\click_2.mp3" />
+    <Media Include="resources\click_2.wav" />
+    <Media Include="resources\click_3.mp3" />
+    <Media Include="resources\click_3.wav" />
+    <Media Include="resources\click_4.mp3" />
+    <Media Include="resources\click_4.wav" />
+    <Media Include="resources\ui_1.mp3" />
+    <Media Include="resources\ui_1.wav" />
+    <Media Include="resources\ui_2.mp3" />
+    <Media Include="resources\ui_2.wav" />
+    <Media Include="resources\ui_3.mp3" />
+    <Media Include="resources\ui_3.wav" />
+    <Media Include="resources\ui_fight.mp3" />
+    <Media Include="resources\ui_fight.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\background.png" />
+    <Image Include="resources\hajimi_idle_back_1.png" />
+    <Image Include="resources\hajimi_idle_back_2.png" />
+    <Image Include="resources\hajimi_idle_back_3.png" />
+    <Image Include="resources\hajimi_idle_back_4.png" />
+    <Image Include="resources\hajimi_idle_front_1.png" />
+    <Image Include="resources\hajimi_idle_front_2.png" />
+    <Image Include="resources\hajimi_idle_front_3.png" />
+    <Image Include="resources\hajimi_idle_front_4.png" />
+    <Image Include="resources\hajimi_idle_left_1.png" />
+    <Image Include="resources\hajimi_idle_left_2.png" />
+    <Image Include="resources\hajimi_idle_left_3.png" />
+    <Image Include="resources\hajimi_idle_left_4.png" />
+    <Image Include="resources\hajimi_idle_right_1.png" />
+    <Image Include="resources\hajimi_idle_right_2.png" />
+    <Image Include="resources\hajimi_idle_right_3.png" />
+    <Image Include="resources\hajimi_idle_right_4.png" />
+    <Image Include="resources\hajimi_run_back_1.png" />
+    <Image Include="resources\hajimi_run_back_2.png" />
+    <Image Include="resources\hajimi_run_back_3.png" />
+    <Image Include="resources\hajimi_run_back_4.png" />
+    <Image Include="resources\hajimi_run_front_1.png" />
+    <Image Include="resources\hajimi_run_front_2.png" />
+    <Image Include="resources\hajimi_run_front_3.png" />
+    <Image Include="resources\hajimi_run_front_4.png" />
+    <Image Include="resources\hajimi_run_left_1.png" />
+    <Image Include="resources\hajimi_run_left_2.png" />
+    <Image Include="resources\hajimi_run_left_3.png" />
+    <Image Include="resources\hajimi_run_left_4.png" />
+    <Image Include="resources\hajimi_run_right_1.png" />
+    <Image Include="resources\hajimi_run_right_2.png" />
+    <Image Include="resources\hajimi_run_right_3.png" />
+    <Image Include="resources\hajimi_run_right_4.png" />
+    <Image Include="resources\manbo_idle_back_1.png" />
+    <Image Include="resources\manbo_idle_back_2.png" />
+    <Image Include="resources\manbo_idle_back_3.png" />
+    <Image Include="resources\manbo_idle_back_4.png" />
+    <Image Include="resources\manbo_idle_front_1.png" />
+    <Image Include="resources\manbo_idle_front_2.png" />
+    <Image Include="resources\manbo_idle_front_3.png" />
+    <Image Include="resources\manbo_idle_front_4.png" />
+    <Image Include="resources\manbo_idle_left_1.png" />
+    <Image Include="resources\manbo_idle_left_2.png" />
+    <Image Include="resources\manbo_idle_left_3.png" />
+    <Image Include="resources\manbo_idle_left_4.png" />
+    <Image Include="resources\manbo_idle_right_1.png" />
+    <Image Include="resources\manbo_idle_right_2.png" />
+    <Image Include="resources\manbo_idle_right_3.png" />
+    <Image Include="resources\manbo_idle_right_4.png" />
+    <Image Include="resources\manbo_run_back_1.png" />
+    <Image Include="resources\manbo_run_back_2.png" />
+    <Image Include="resources\manbo_run_back_3.png" />
+    <Image Include="resources\manbo_run_back_4.png" />
+    <Image Include="resources\manbo_run_front_1.png" />
+    <Image Include="resources\manbo_run_front_2.png" />
+    <Image Include="resources\manbo_run_front_3.png" />
+    <Image Include="resources\manbo_run_front_4.png" />
+    <Image Include="resources\manbo_run_left_1.png" />
+    <Image Include="resources\manbo_run_left_2.png" />
+    <Image Include="resources\manbo_run_left_3.png" />
+    <Image Include="resources\manbo_run_left_4.png" />
+    <Image Include="resources\manbo_run_right_1.png" />
+    <Image Include="resources\manbo_run_right_2.png" />
+    <Image Include="resources\manbo_run_right_3.png" />
+    <Image Include="resources\manbo_run_right_4.png" />
+    <Image Include="resources\ui_1.png" />
+    <Image Include="resources\ui_2.png" />
+    <Image Include="resources\ui_3.png" />
+    <Image Include="resources\ui_fight.png" />
+    <Image Include="resources\ui_textbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\IPix.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation\Animation.h" />
+    <ClInclude Include="Animation\Atlas.h" />
+    <ClInclude Include="Camera\Camera.h" />
+    <ClInclude Include="Kits\Timer.h" />
+    <ClInclude Include="Kits\Util.h" />
+    <ClInclude Include="Kits\Vector2.h" />
+    <ClInclude Include="Player\Path.h" />
+    <ClInclude Include="Player\Player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.cfg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
